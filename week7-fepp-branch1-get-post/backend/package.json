@@ -9,7 +9,7 @@
     "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
     "install-frontend": "cd frontend && npm install",
     "install-backend": "cd backend && npm install",
-    "build": "npm install && npm run install-frontend && npm run install-backend && cd frontend && npm run build",
+    "build": "npm install",
     "data:import": "node seeder",
     "data:destroy": "node seeder -d"
   },
